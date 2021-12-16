@@ -1,5 +1,10 @@
 package com.company.concepts;
 
+import com.company.concepts.practice_problem.EvenOrOdd;
+import com.company.concepts.practice_problem.Factorial;
+import com.company.concepts.practice_problem.Palindrome;
+import com.company.concepts.practice_problem.PrimeNumber;
+
 import java.util.Scanner;
 
 public class Main {
@@ -32,6 +37,20 @@ public class Main {
         }else {
             System.out.println(inputNum + " is not a prime number");
         }
+
+//        palindrome
+
+        Palindrome palindrome = new Palindrome();
+        System.out.println("Input any to check palindrome");
+        String input = scanner.next();
+        palindrome.isPalindrome(input);
+        if(palindrome.isPalindrome(input)){
+            System.out.println("Palindrome");
+        }else {
+            System.out.println("Not Palindrome");
+        }
+
+
 
     }
 }

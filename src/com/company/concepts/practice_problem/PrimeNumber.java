@@ -1,8 +1,8 @@
-package com.company.concepts;
+package com.company.concepts.practice_problem;
 
 public class PrimeNumber {
 
-    boolean checkPrime(int input){
+    public boolean checkPrime(int input){
 
         boolean prime = true;
         for(int i= 2; i<input; i++){
