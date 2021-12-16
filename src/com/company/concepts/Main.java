@@ -33,5 +33,18 @@ public class Main {
             System.out.println(inputNum + " is not a prime number");
         }
 
+//        palindrome
+
+        Palindrome palindrome = new Palindrome();
+        System.out.println("Input any to check palindrome");
+        String input = scanner.next();
+        palindrome.isPalindrome(input);
+        if(palindrome.isPalindrome(input)){
+            System.out.println("Palindrome");
+        }else {
+            System.out.println("Not Palindrome");
+        }
+
+
     }
 }
