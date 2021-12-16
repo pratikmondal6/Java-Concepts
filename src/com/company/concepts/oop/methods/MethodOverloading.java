@@ -1,4 +1,4 @@
-package com.company.concepts.oop;
+package com.company.concepts.oop.methods;
 
 public class MethodOverloading {
 
