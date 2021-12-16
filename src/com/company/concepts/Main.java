@@ -1,5 +1,10 @@
 package com.company.concepts;
 
+import com.company.concepts.practice_problem.EvenOrOdd;
+import com.company.concepts.practice_problem.Factorial;
+import com.company.concepts.practice_problem.Palindrome;
+import com.company.concepts.practice_problem.PrimeNumber;
+
 import java.util.Scanner;
 
 public class Main {

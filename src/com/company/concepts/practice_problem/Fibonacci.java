@@ -1,4 +1,4 @@
-package com.company.concepts;
+package com.company.concepts.practice_problem;
 
 public class Fibonacci {
 

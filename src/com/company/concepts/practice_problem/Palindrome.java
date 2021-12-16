@@ -1,8 +1,8 @@
-package com.company.concepts;
+package com.company.concepts.practice_problem;
 
 public class Palindrome {
 
-    boolean isPalindrome(String input){
+    public boolean isPalindrome(String input){
         StringBuffer stringBuffer = new StringBuffer(input);
         String reverseInput = stringBuffer.reverse().toString();
 

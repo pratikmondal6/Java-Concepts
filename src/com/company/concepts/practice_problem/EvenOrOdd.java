@@ -1,10 +1,10 @@
-package com.company.concepts;
+package com.company.concepts.practice_problem;
 
 import java.util.Scanner;
 
 public class EvenOrOdd {
 
-    boolean evenOddChecker (int num){
+    public boolean evenOddChecker(int num){
         return num % 2 == 0;
     }
 }

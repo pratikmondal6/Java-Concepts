@@ -1,4 +1,4 @@
-package com.company.concepts;
+package com.company.concepts.oop.encapsulation;
 
 
 //Encapsulation in Java is a mechanism
