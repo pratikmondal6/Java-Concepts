@@ -23,5 +23,15 @@ public class Main {
         int fact = factorial.Factorial(inputNum);
         System.out.println("factorial of "+inputNum+ " is "+fact);
 
+    //  prime
+
+        PrimeNumber primeNumber = new PrimeNumber();
+        boolean prime = primeNumber.checkPrime(inputNum);
+        if(prime) {
+            System.out.println(inputNum + " is a prime number");
+        }else {
+            System.out.println(inputNum + " is not a prime number");
+        }
+
     }
 }
